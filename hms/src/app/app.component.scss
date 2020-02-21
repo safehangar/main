@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.mat-form-field{
+    display: block !important;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
