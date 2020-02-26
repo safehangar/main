@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UnitsComponent implements OnInit {
 
+  id = "id";
+  unit = "unit";
+  firstname = "firstname";
+  lastname = "lastname";
+  tailnumber = "tailnumber";
+  planetype = "planetype";
+  insurance = "insuance";     
+  policynumber = "policynumber";
+  expiredatepolicy = "expiredatepolicy";
+  phone = "phone"; 
+  email = "email "; 
   constructor() { }
 
   ngOnInit() {
